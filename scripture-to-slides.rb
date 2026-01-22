@@ -4,7 +4,7 @@ class ScriptureToSlides < Formula
   desc "Generate presentation-ready PDF slides from scripture passages"
   homepage "https://github.com/cmshinkle/scripture-to-slides"
   url "https://github.com/cmshinkle/scripture-to-slides/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "30d1edd52eb54a566afad1f0a9bb41bf7aaf251ef2c92341b5d50263f0f4a1b7"
+  sha256 "fad83b04d03f2f4053e080bf6872e052ab97478023d81977b9ff2944f08ca0c8"
   license "MIT"
 
   depends_on "pillow"
