@@ -7,7 +7,13 @@ class ScriptureToSlides < Formula
   sha256 "3e17aa15bd97a01f65b45730e1c7f3ac9816c6d1a19353077cd17baf828b68e7"
   license "MIT"
 
+  depends_on "freetype"
+  depends_on "jpeg-turbo"
+  depends_on "libtiff"
+  depends_on "little-cms2"
+  depends_on "openjpeg"
   depends_on "python@3.13"
+  depends_on "webp"
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz"
