@@ -10,43 +10,43 @@ class ScriptureToSlides < Formula
   depends_on "python@3.13"
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/7e/36/c05f9ae75da2e45c7cfb21d08c0984816cd1fc7bf5ac0c81e2dd468b8f49/certifi-2026.1.4.tar.gz"
-    sha256 "5bdbf17c0d5b486fbf8fd13ef4e8cc02e04f394cb67eaa13eede74fa8dbf8fdb"
+    url "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz"
+    sha256 "ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/f6/93/1bac3690f1871f2f2c8e97af8e9b89e4d8c8c40dede4f98b80dbb5c67d3c/charset_normalizer-3.4.4.tar.gz"
-    sha256 "e59e0c5fb4e8ca87ca5f32e9b35f0b8e4deb89e9a99e6ea13e0c4e41b4b8d3c0"
+    url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
+    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.11.tar.gz"
-    sha256 "85ce07a8797d76a88bb30c87dc6c2d1d83e5ed4a9a9b23bed2b1caa4f7d3e1fe"
+    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
+    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
   end
 
   resource "pillow" do
-    url "https://files.pythonhosted.org/packages/31/69/1ef0fb9d2039d3e26bb4b42bf8b3a95cd44a7b8e29190c0c5377c88832f6/pillow-12.1.0.tar.gz"
-    sha256 "4e37b4e1c1f2df62976f35b0b3f89a24fdcf8a5b973da8e6e3a6c31978bb9f78"
+    url "https://files.pythonhosted.org/packages/d0/02/d52c733a2452ef1ffcc123b68e6606d07276b0e358db70eabad7e40042b7/pillow-12.1.0.tar.gz"
+    sha256 "5c5ae0a06e9ea030ab786b0251b32c7e4ce10e58d983c0d5c56029455180b5b9"
   end
 
   resource "pyyaml" do
-    url "https://files.pythonhosted.org/packages/f8/aa/7af4e81f7acba21a4c6be026da38fd2b872ca46226673c89a758ebdc4fd2/pyyaml-6.0.3.tar.gz"
-    sha256 "8f8b6aeed4d2b0e5c3e61c65e0e50f2c4b7e3aaa05a71f5b77e9fbe07f76925a"
+    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
   end
 
   resource "reportlab" do
-    url "https://files.pythonhosted.org/packages/4a/7d/be0cbd84edf46ac30c9e7c893a5a1b9e72f81e07c6ece2c4c5b0b1b15d31/reportlab-4.4.9.tar.gz"
-    sha256 "dc2f4c48f1f29f04b53e1e80ba7f2dc7c6d03535c7d99e5e0ec8f7fa3e6cc9f3"
+    url "https://files.pythonhosted.org/packages/1a/39/42cf24aee570a80e1903221ae3a92a2e34c324794a392eb036cbb6dc3839/reportlab-4.4.9.tar.gz"
+    sha256 "7cf487764294ee791a4781f5a157bebce262a666ae4bbb87786760a9676c9378"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/c2/c2/d63cec1dc9e2fe0afac0042808b5d38d5cb0db1e3f54b6c8e5e2dd0d94e1/requests-2.32.5.tar.gz"
-    sha256 "14db42ab7fd81e5bb0f88cec1cf73f0b562c5cf83bcbc4fad6ad1a3a86b3e45d"
+    url "https://files.pythonhosted.org/packages/c9/74/b3ff8e6c8446842c3f5c837e9c3dfcfe2018ea6ecef224c710c85ef728f4/requests-2.32.5.tar.gz"
+    sha256 "dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf"
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/7b/42/72e85a08a5eb4d77903bfda8b8c2b3fc06fe2c14e43ea993cf4a2da3a4eb/urllib3-2.6.3.tar.gz"
-    sha256 "1d5d6d6ea2e31e41d11dfb54c3db0c93b4f6d7c4d3e19a3ec5c8d9d9dddc8e96"
+    url "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz"
+    sha256 "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"
   end
 
   def install
