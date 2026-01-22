@@ -7,6 +7,7 @@ class ScriptureToSlides < Formula
   sha256 "3e17aa15bd97a01f65b45730e1c7f3ac9816c6d1a19353077cd17baf828b68e7"
   license "MIT"
 
+  depends_on "pillow"
   depends_on "python@3.13"
 
   resource "certifi" do
@@ -22,11 +23,6 @@ class ScriptureToSlides < Formula
   resource "idna" do
     url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
     sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
-  end
-
-  resource "pillow" do
-    url "https://files.pythonhosted.org/packages/1c/34/583420a1b55e715937a85bd48c5c0991598247a1fd2eb5423188e765ea02/pillow-12.1.0-cp313-cp313-macosx_11_0_arm64.whl"
-    sha256 "db44d5c160a90df2d24a24760bbd37607d53da0b34fb546c4c232af7192298ac"
   end
 
   resource "pyyaml" do
