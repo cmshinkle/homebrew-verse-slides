@@ -1,10 +1,10 @@
-class ScriptureToSlides < Formula
+class VerseSlides < Formula
   include Language::Python::Virtualenv
 
   desc "Generate presentation-ready PDF slides from scripture passages"
-  homepage "https://github.com/cmshinkle/scripture-to-slides"
-  url "https://github.com/cmshinkle/scripture-to-slides/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "fad83b04d03f2f4053e080bf6872e052ab97478023d81977b9ff2944f08ca0c8"
+  homepage "https://github.com/cmshinkle/verse-slides"
+  url "https://github.com/cmshinkle/verse-slides/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "45638f797e3cf686dc3372e9f0cf7e051d4e5a862f62d19a78bb41ca5aef70db"
   license "MIT"
 
   depends_on "pillow"
@@ -50,6 +50,6 @@ class ScriptureToSlides < Formula
   end
 
   test do
-    assert_match "scripture-to-slides", shell_output("#{bin}/scripture-to-slides --help")
+    assert_match "verse-slides", shell_output("#{bin}/verse-slides --help")
   end
 end
